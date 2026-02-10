@@ -52,3 +52,4 @@
 |---|------|------|------|
 | 0001 | 역학과 구조 | 진화적 아키텍처의 두 축: 변화의 방식 vs 현재의 형태 | [concepts/0001-dynamics-and-structure.md](concepts/0001-dynamics-and-structure.md) |
 | 0002 | 비트 부패 | 코드는 그대로인데 환경 변화로 동작하지 않게 되는 현상 | [concepts/0002-bit-rot.md](concepts/0002-bit-rot.md) |
+| 0003 | 구조 설계 | 도메인과 아키텍처 특성, 두 영역으로 나누어 설계 | [concepts/0003-structural-design.md](concepts/0003-structural-design.md) |
