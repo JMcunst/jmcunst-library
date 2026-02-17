@@ -33,6 +33,9 @@
 - SBOM / 이미지 서명 / 취약점 스캔
 - 시크릿 인증 관리
 - 환경 파라미터화 (Parameterization)
+- 퍼시스턴트볼륨 (Persistent Volume)
+- 파일 스토리지 vs 블록 스토리지
+- 스테이트풀 서비스 운영 전략
 
 ## 인상 깊었던 내용
 
@@ -53,3 +56,4 @@
 |---|------|------|------|
 | 0001 | 이미지 관리 모범 사례 | 공급망 공격을 줄이기 위한 베이스 이미지 선택, 빌드 검증, 배포 게이트 | [concepts/0001-image-management-best-practices.md](concepts/0001-image-management-best-practices.md) |
 | 0002 | 시크릿 인증 관리 | 시크릿을 코드/이미지에 바인딩하지 않고 환경별로 안전하게 주입하는 원칙 | [concepts/0002-secret-credential-management.md](concepts/0002-secret-credential-management.md) |
+| 0003 | 스테이트풀 스토리지 선택 | 파일/블록 스토리지 특성과 상태 관리 복잡도를 고려한 운영 전략 | [concepts/0003-stateful-storage-selection.md](concepts/0003-stateful-storage-selection.md) |
