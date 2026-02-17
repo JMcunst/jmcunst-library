@@ -8,7 +8,10 @@ A personal reading log — books I own, reviews, notes, and things worth remembe
 jmcunst-library/
 ├── books/
 │   ├── tech/
-│   │   └── evolutionary-architecture/
+│   │   ├── 진화적-아키텍처/
+│   │   │   ├── README.md
+│   │   │   └── concepts/
+│   │   └── 쿠버네티스-창시자에게-배우는-모범-사례-2판/
 │   │       ├── README.md
 │   │       └── concepts/
 │   ├── essay/
@@ -34,14 +37,15 @@ jmcunst-library/
 
 | Category | Count |
 |----------|-------|
-| Tech | 1 |
+| Tech | 2 |
 | Essay | 0 |
 | Novel | 0 |
 | Self-help | 0 |
 | Others | 0 |
-| **Total** | **1** |
+| **Total** | **2** |
 
 ## Books
 
 ### Tech
-- [진화적 아키텍처](books/tech/evolutionary-architecture/)
+- [진화적 아키텍처](books/tech/진화적-아키텍처/)
+- [쿠버네티스-창시자에게-배우는-모범-사례-2판](books/tech/쿠버네티스-창시자에게-배우는-모범-사례-2판/)
