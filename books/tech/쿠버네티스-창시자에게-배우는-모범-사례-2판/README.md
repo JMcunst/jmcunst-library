@@ -54,6 +54,14 @@
 - 개발 이터레이션과 디버깅
 - 테스트 자동화 (Pre-merge)
 - 스모크 테스트
+- 폐쇄형 모니터링 (Closed-box)
+- 개방형 모니터링 (Open-box)
+- 원인 중심 모니터링 질문
+- 모니터링 패턴 (USE / RED)
+- USE 방법론
+- RED 방법론
+- 4대 골든 시그널
+- 인프라 vs 애플리케이션 모니터링
 
 ## 인상 깊었던 내용
 
@@ -90,3 +98,11 @@
 | 0016 | 개발 단계 KPI | 코드 변경 후 클러스터 검증까지의 리드타임과 체감 생산성을 측정하는 방법 | [concepts/0016-development-stage-kpi.md](concepts/0016-development-stage-kpi.md) |
 | 0017 | 테스트 단계 운영 원칙 | PR 전 로컬 테스트와 머지 전 자동 테스트를 결합한 품질 게이트 원칙 | [concepts/0017-testing-stage-principles.md](concepts/0017-testing-stage-principles.md) |
 | 0018 | 스모크 테스트 실천 | PR 직전 빠른 초기 검증을 위한 경량 테스트 세트 설계와 활용 | [concepts/0018-smoke-test-practice.md](concepts/0018-smoke-test-practice.md) |
+| 0019 | 폐쇄형 모니터링 | 인프라 외부 관측(리소스 지표) 중심의 상태 확인 방식과 한계 | [concepts/0019-closed-box-monitoring.md](concepts/0019-closed-box-monitoring.md) |
+| 0020 | 개방형 모니터링 | HTTP 요청/에러/지연시간 등 애플리케이션 상태 중심 관측 방식 | [concepts/0020-open-box-monitoring.md](concepts/0020-open-box-monitoring.md) |
+| 0021 | 원인 중심 모니터링 질문 | '무슨 일이 발생했나'를 넘어 '왜 발생했나'까지 추적하는 모니터링 사고법 | [concepts/0021-monitoring-why-question.md](concepts/0021-monitoring-why-question.md) |
+| 0022 | 동적 플랫폼 모니터링 패턴 | VM 중심 모니터링과 다른 쿠버네티스의 일시적 객체 특성에 맞춘 관측 설계 | [concepts/0022-monitoring-patterns-for-dynamic-platforms.md](concepts/0022-monitoring-patterns-for-dynamic-platforms.md) |
+| 0023 | USE 방법론 | 사용률/포화도/에러를 통해 인프라 자원 병목을 빠르게 찾는 관측 방법 | [concepts/0023-use-method.md](concepts/0023-use-method.md) |
+| 0024 | RED 방법론 | 처리율/에러/지연시간으로 애플리케이션 사용자 경험을 추적하는 관측 방법 | [concepts/0024-red-method.md](concepts/0024-red-method.md) |
+| 0025 | 4대 골든 시그널 | 레이턴시/트래픽/에러/포화도를 기준으로 서비스 품질을 운영하는 원칙 | [concepts/0025-four-golden-signals.md](concepts/0025-four-golden-signals.md) |
+| 0026 | USE와 RED의 상호보완 | 인프라 중심 관측과 앱 중심 관측을 결합해 원인 추적 속도를 높이는 운영 방식 | [concepts/0026-use-red-complementary-monitoring.md](concepts/0026-use-red-complementary-monitoring.md) |
