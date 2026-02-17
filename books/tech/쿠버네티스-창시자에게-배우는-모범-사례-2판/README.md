@@ -31,6 +31,8 @@
 - 베이스 이미지 신뢰성
 - 이미지 다이제스트 고정 (Digest Pinning)
 - SBOM / 이미지 서명 / 취약점 스캔
+- 시크릿 인증 관리
+- 환경 파라미터화 (Parameterization)
 
 ## 인상 깊었던 내용
 
@@ -50,3 +52,4 @@
 | # | 개념 | 설명 | 링크 |
 |---|------|------|------|
 | 0001 | 이미지 관리 모범 사례 | 공급망 공격을 줄이기 위한 베이스 이미지 선택, 빌드 검증, 배포 게이트 | [concepts/0001-image-management-best-practices.md](concepts/0001-image-management-best-practices.md) |
+| 0002 | 시크릿 인증 관리 | 시크릿을 코드/이미지에 바인딩하지 않고 환경별로 안전하게 주입하는 원칙 | [concepts/0002-secret-credential-management.md](concepts/0002-secret-credential-management.md) |
