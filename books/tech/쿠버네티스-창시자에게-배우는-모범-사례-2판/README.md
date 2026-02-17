@@ -48,6 +48,12 @@
 - 버전 관리
 - 코드 리뷰
 - 지속적 배포 (Continuous Delivery)
+- 개발자 워크플로 (Developer Workflow)
+- 개발 클러스터 목표 정의
+- 온보딩 KPI
+- 개발 이터레이션과 디버깅
+- 테스트 자동화 (Pre-merge)
+- 스모크 테스트
 
 ## 인상 깊었던 내용
 
@@ -78,3 +84,9 @@
 | 0010 | 버전 관리 실천 | 변경 이력, 태깅, 브랜치 전략으로 릴리스 추적성과 복구 가능성 확보 | [concepts/0010-version-control-practice.md](concepts/0010-version-control-practice.md) |
 | 0011 | 코드 리뷰 실천 | 변경 리스크를 사전 차단하고 팀 지식 공유를 강화하는 리뷰 운영 방식 | [concepts/0011-code-review-practice.md](concepts/0011-code-review-practice.md) |
 | 0012 | 지속적 배포 실천 | 자동화된 검증과 단계적 릴리스로 배포 리드타임과 장애 복구 시간을 줄이는 방식 | [concepts/0012-continuous-delivery-practice.md](concepts/0012-continuous-delivery-practice.md) |
+| 0013 | 개발자 워크플로 중심 운영 | 프로덕션 중심 쿠버네티스에서도 개발자 경험을 별도 설계해야 하는 이유와 접근 | [concepts/0013-developer-workflow-first-kubernetes.md](concepts/0013-developer-workflow-first-kubernetes.md) |
+| 0014 | 개발 클러스터 목표 정의 | 개발 클러스터의 목적을 '빠른 개발 지원'으로 명확히 하고 측정 가능한 목표로 전환 | [concepts/0014-development-cluster-goals.md](concepts/0014-development-cluster-goals.md) |
+| 0015 | 온보딩 단계와 KPI | 신규 개발자가 첫 배포까지 도달하는 시간을 관리하는 온보딩 설계 원칙 | [concepts/0015-onboarding-stage-and-kpi.md](concepts/0015-onboarding-stage-and-kpi.md) |
+| 0016 | 개발 단계 KPI | 코드 변경 후 클러스터 검증까지의 리드타임과 체감 생산성을 측정하는 방법 | [concepts/0016-development-stage-kpi.md](concepts/0016-development-stage-kpi.md) |
+| 0017 | 테스트 단계 운영 원칙 | PR 전 로컬 테스트와 머지 전 자동 테스트를 결합한 품질 게이트 원칙 | [concepts/0017-testing-stage-principles.md](concepts/0017-testing-stage-principles.md) |
+| 0018 | 스모크 테스트 실천 | PR 직전 빠른 초기 검증을 위한 경량 테스트 세트 설계와 활용 | [concepts/0018-smoke-test-practice.md](concepts/0018-smoke-test-practice.md) |
